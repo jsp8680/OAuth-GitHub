@@ -19,6 +19,7 @@ const PORT = 3000;
 const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID;
 const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET;
 
+const GITHUB_CALLBACK_URL = "http://localhost:3000/auth/github/callback";
 /*
  * Passport Configurations
  */
